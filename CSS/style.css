@@ -1,13 +1,14 @@
-/* Base Files */
-@import url(base/base.css);
-
 /* Vendor Files */
 @import url(vendors/bootstrap.min.css);
 @import url(vendors/all.min.css);
 
+/* Base Files */
+@import url(base/base.css);
+
 /* Component Files */
 
 /* Layout Files */
+@import url(layout/navbar.css);
 
 /* Page Files */
 @import url(pages/home.css);

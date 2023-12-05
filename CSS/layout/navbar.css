@@ -1,0 +1,57 @@
+.nav-item {
+    padding: 0 20px 16px;
+}
+
+.nav-icon {
+    padding: 0 15px 16px;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+.nav-icon:hover {
+    color: #e3b17f;
+}
+
+.nav-item:has(> a.active) {
+    position: relative;
+    z-index: 1;
+}
+
+.nav-item:has(> a.active)::before {
+    content: '';
+    position: absolute;
+    top: 8px;
+    left: 0;
+    width: 40%;
+    height: 25px;
+    background: #e3b17f;
+    transition: all 0.4s;
+    z-index: -1;
+}
+
+.nav-item:has(> a.active):hover::before {
+    width: 100%;
+}
+
+.nav-item {
+    position: relative;
+    z-index: 1;
+}
+
+.nav-item::before {
+    content: '';
+    position: absolute;
+    top: 8px;
+    left: 0;
+    width: 0;
+    height: 25px;
+    background: #e3b17f;
+    transition: all 0.4s;
+    z-index: -1;
+}
+
+.nav-item:hover::before {
+    width: 100%;
+}
+
+
