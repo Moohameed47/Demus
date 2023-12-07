@@ -1,0 +1,59 @@
+.home {
+    margin: -15px 0 0 0;
+}
+
+.home .homeData {
+    background: url('../../Images/home.jpg') center center;
+    background-size: cover;
+    height: 86vh;
+    width: 100%;
+}
+
+.home .homeData h2 {
+    font-size: 60px;
+    font-family: 'Sen-800', serif;
+    color: black;
+    line-height: 1;
+}
+
+.home .homeData h4,
+.home .homeData h4 span {
+    color: #54504f;
+    font-size: 18px;
+    font-family: 'Sen-700', serif;
+    letter-spacing: -1px;
+}
+
+.home .homeData h4 span {
+    color: #e3b17f;
+
+}
+
+.home .homeData .btn-half {
+    font-size: 16px;
+    padding: 18px 44px;
+    background: transparent;
+    position: relative;
+    z-index: 1;
+}
+
+.home .homeData .btn-half:after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    width: 50%;
+    height: 100%;
+    background: #e3b17f;
+    border-radius: 0;
+    z-index: -1;
+    transition: all 0.5s;
+}
+
+.home .homeData .btn-half:hover:after {
+    width: 100%;
+}
+
+.home .homeData .btn-half:active,
+.home .homeData .btn-half:focus {
+    border: none;
+}

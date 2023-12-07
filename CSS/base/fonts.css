@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Sen-400';
+    src: url(../fonts/Sen-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Sen-500';
+    src: url(../fonts/Sen-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Sen-600';
+    src: url(../fonts/Sen-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'Sen-700';
+    src: url(../fonts/Sen-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Sen-800';
+    src: url(../fonts/Sen-ExtraBold.ttf);
+}

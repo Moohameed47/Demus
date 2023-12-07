@@ -1,6 +1,7 @@
 /* Vendor Files */
 @import url(vendors/bootstrap.min.css);
 @import url(vendors/all.min.css);
+@import url(vendors/animate.css);
 
 /* Base Files */
 @import url(base/base.css);
