@@ -1,0 +1,45 @@
+{
+  "products": [
+    {
+      "id": 0,
+      "prodId": 0,
+      "name": "Wicked lounge rattan",
+      "price": 282,
+      "vendor": "Ashley",
+      "categories": "Chairs",
+      "sku": "SKU113",
+      "availability": true,
+      "mainImg": "../Images/Product-IMG-27_41b2abea-e798-4228-9f8a-750f01ed095d.jpg",
+      "images": [],
+      "Color": [
+        "BurlyWood"
+      ],
+      "tags": [
+        "Ceramic",
+        "Fabric",
+        "Metal",
+        "Wood"
+      ]
+    },
+    {
+      "id": 1,
+      "prodId": 1,
+      "name": "Yann oak base",
+      "price": 182,
+      "vendor": "Ashley",
+      "categories": "Chairs",
+      "sku": "SKU091",
+      "availability": true,
+      "mainImg": "../Images/Product-IMG-23_14e6b0e1-dc96-414a-ad38-00d3f0060f67.jpg",
+      "images": [],
+      "Color": [
+        "Wheat"
+      ],
+      "tags": [
+        "Ceramic",
+        "Metal",
+        "Wood"
+      ]
+    }
+  ]
+}

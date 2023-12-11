@@ -17,6 +17,8 @@
 /* Page Files */
 @import url(pages/home.css);
 @import url(pages/login.css);
+@import url(pages/blog.css);
+@import url(pages/shop.css);
 
 /* Responsive Files */
 @import url(responsive/home.css);

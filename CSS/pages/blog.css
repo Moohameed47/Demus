@@ -1,0 +1,108 @@
+.blogs .blog img {
+    height: auto;
+}
+
+.blogs .blog p, .blogs .blog a {
+    margin-top: 20px;
+    font-size: 12px;
+    text-decoration: none;
+    color: darkgray;
+    font-family: "Sen-400", serif;
+    transition: all 0.2s;
+}
+
+.blogs .blog a:hover {
+    color: #e3b17f;
+}
+
+.blogs .blog > a {
+    margin-top: 0;
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+    font-family: "Sen-700", serif;
+    transition: all 0.1s;
+    cursor: pointer;
+}
+
+.blogs .blog > h6 {
+    margin-top: 20px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #565656;
+    font-family: "Sen-400", serif;
+}
+
+.blogs .blog > a:last-child {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.blogs .blog > a:last-child {
+    border-bottom: 2px solid #e3b17f;
+    color: #e3b17f;
+}
+
+.blogs .blog > a:last-child:hover {
+    color: black;
+    border-color: transparent;
+}
+
+.blogs .blog > a:last-child:after {
+    border-bottom-width: 2px;
+}
+
+.blogs .RightSec {
+    padding-left: 40px;
+}
+
+.blogs .RightSec input::placeholder {
+    font-family: 'Sen-400', serif;
+}
+
+.blogs .RightSec input:focus {
+    box-shadow: none;
+    border-color: darkgray;
+}
+
+.blogs .RightSec hr {
+    margin: 40px 0;
+}
+
+.blogs .RightSec ul {
+    list-style: circle;
+}
+
+.blogs .RightSec ul li {
+    list-style: square;
+    display: block;
+    margin: 8px 0;
+    font-family: 'Sen-400', serif;
+}
+
+.blogs .RightSec h3 {
+    color: black;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.blogs .RightSec > p {
+    font-size: 16px;
+    color: #565656;
+    font-family: 'Sen-400', serif;
+}
+
+.blogs .RightSec button {
+    border: 1px solid #c0c0c0;
+    color: #565656;
+    border-radius: 0;
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-family: 'Sen-400', serif;
+}
+
+.blogs .RightSec button:hover {
+    border: 1px solid black;
+    background: black;
+    color: white;
+}

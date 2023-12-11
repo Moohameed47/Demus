@@ -1,0 +1,9 @@
+.AllProduct p {
+    font-family: 'Sen-400', serif;
+    color: black;
+    opacity: 0.8;
+}
+
+.AllProduct hr {
+    margin: 20px 0;
+}
