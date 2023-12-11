@@ -1,0 +1,20 @@
+.underLine {
+    margin-top: 20px;
+    font-size: 18px;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.underLine::after {
+    position: absolute;
+    content: '';
+    width: 0%;
+    inset: 0;
+    border-bottom: 1px solid black;
+    transition: all 0.3s;
+}
+
+.underLine:hover::after {
+    width: 100%;
+}

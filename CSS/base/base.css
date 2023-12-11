@@ -7,9 +7,9 @@
     transition: all 0.5s;
 }
 
-body {
-    height: 2000vh;
-}
+/*body {*/
+/*    height: 2000vh;*/
+/*}*/
 
 img {
     width: 100%;
@@ -70,4 +70,16 @@ img {
 .py-80 {
     padding-top: 80px;
     padding-bottom: 80px;
+}
+
+.space {
+    margin: 0 -50px
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    display: inline-block;
 }

@@ -58,4 +58,7 @@
     width: 100%;
 }
 
-
+a.nav-icon {
+    text-decoration: none;
+    color: black;
+}

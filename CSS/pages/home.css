@@ -29,7 +29,7 @@
 
 }
 
-.home .homeData .btn-half {
+.btn-half {
     font-size: 16px;
     padding: 18px 44px;
     background: transparent;
@@ -37,7 +37,7 @@
     z-index: 1;
 }
 
-.home .homeData .btn-half:after {
+.btn-half:after {
     content: '';
     position: absolute;
     inset: 0;
@@ -49,12 +49,12 @@
     transition: all 0.5s;
 }
 
-.home .homeData .btn-half:hover:after {
+.btn-half:hover:after {
     width: 100%;
 }
 
-.home .homeData .btn-half:active,
-.home .homeData .btn-half:focus {
+.btn-half:active,
+.btn-half:focus {
     border: none;
 }
 
@@ -71,139 +71,162 @@
     color: #54504f;
 }
 
-.trending .products {
-    margin: 0 -50px
-}
-
-.trending .products .card-data h5 {
-    margin-top: 20px;
-    font-size: 18px;
-    position: relative;
+/****************/
+.AllProduct .data a {
+    font-size: 16px;
+    color: #54504f;
+    border-bottom: 2px solid #e3b17f;
     display: inline-block;
+    position: relative;
+    text-decoration: none;
     cursor: pointer;
 }
 
-.trending .products .card-data h5::after {
+.AllProduct .data a::after {
     position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 0;
     content: '';
-    width: 0%;
-    inset: 0;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid black;
     transition: all 0.3s;
 }
 
-.trending .products .card-data h5:hover::after {
+.AllProduct .data a:hover {
+    color: black;
+}
+
+.AllProduct .data a:hover::after {
     width: 100%;
 }
 
-.trending .products .card-data p {
-    font-size: 16px;
-    font-family: 'Sen-400', serif;
-}
-
-.trending .products .card-data p span {
-    text-decoration: line-through;
-    color: rgba(128, 128, 128, 0.5);
-    font-family: 'Sen-400', serif;
-}
-
-.trending .card-img {
+.categories .cat-img {
     position: relative;
     overflow: hidden;
-    border-radius: 0;
 }
 
-.trending .card-overlay {
-    position: absolute;
+.categories .cat-img:hover img {
+    transform: scale(1.2);
+}
+
+.categories .cat-data {
     width: 100%;
-    height: 100%;
-    background: green;
-    top: 0;
-}
-
-.trending .card-img .btn-half {
     position: absolute;
-    width: 100%;
-    height: 60px;
-    bottom: 0;
-    background: black;
-    border-radius: 0;
-    color: white;
-    border: none;
-    z-index: 1;
-    transition: all 0.3s;
-    transform: translateY(60px);
+    bottom: 35px;
 }
 
-.trending .card-img .btn-half:after {
-    content: '';
-    position: absolute;
-    inset: 0;
-    width: 0%;
-    height: 100%;
-    background: #e3b17f;
-    border-radius: 0;
-    border: none;
-    z-index: -1;
-    transition: all 0.3s;
+.categories .cat-data h3 {
+    margin: 0;
+    text-align: center;
+    cursor: pointer;
 }
 
-.trending .card-img .btn-half:hover:after {
-    width: 100%;
-}
-
-.trending .card-img i {
-    position: absolute;
-    top: 15px;
-    right: 15px;
-    transition: all 0.3s;
-    transform: scale(0);
-}
-
-.trending .card-img a:hover i {
-    color: #e3b17f;
-}
-
-.trending .card:hover i {
-    transform: scale(1);
-}
-
-.trending .card:hover .btn-half {
-    transform: translateY(-0px);
-}
-
-.trending .card .Sale,
-.trending .card .Out {
-    position: absolute;
-    top: 15px;
-    left: 15px;
+.categories .cat-data h3 a {
     text-decoration: none;
-    color: rgba(0, 0, 0, 0.6);
-    font-family: 'Sen-400', serif;
-    font-size: 14px;
-    padding: 0 3px;
-    z-index: 1;
+    color: black;
 }
 
-.trending .card .Sale::before,
-.trending .card .Out::before {
+.categories .cat-data p {
+    margin: 0;
+    font-family: 'Sen-400', serif;
+    color: #5b5b5b;
+    text-align: center;
+}
+
+.mostPop ul li {
+    margin: 0 7px;
+    font-family: 'Sen-400', serif;
+    text-decoration: none;
+}
+
+.mostPop ul li:last-child {
+    margin: 0 0 0 7px;
+}
+
+.mostPop ul li.active {
+    color: black;
+    position: relative;
+
+}
+
+.mostPop ul li.active:before {
     content: '';
     position: absolute;
-    top: 1px;
-    left: 0;
-    width: 20px;
-    height: 20px;
-    background: #f57e7e;
-    transition: all 0.4s;
-    z-index: -1;
+    width: 100%;
+    bottom: 0;
+    border-bottom: 2px solid #e3b17f;
 }
 
-.trending .card .Out::before {
-    background: #A49F9C;
+.mostPop ul li:not(first-child) {
+    cursor: pointer;
+    text-decoration: none;
+    position: relative;
 }
 
-.trending .card:hover .Sale::before,
-.trending .card:hover .Out::before {
+.mostPop ul li:not(first-child) {
+    color: #595959;
+}
+
+.mostPop ul li:not(first-child):has(a:hover) {
+    color: black;
+}
+
+.mostPop ul li a {
+    transition: all 0.1s;
+    font-family: 'Sen-400', serif;
+}
+
+.mostPop ul li:not(first-child) a::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    bottom: 0;
+    border-bottom: 2px solid #e3b17f;
+    transition: all 0.3s;
+}
+
+.mostPop ul li:not(first-child) a:hover::before {
     width: 100%;
 }
 
+.mostPop ul li:not(first-child) a:hover {
+    color: black;
+}
+
+
+.features .data h4 {
+    font-size: 21px;
+    color: black;
+}
+
+.features .data p {
+    font-size: 18px;
+    font-family: 'Sen-400', serif;
+    color: #5d5d5d;
+}
+
+.features .data i {
+    color: #9a9a9a;
+    opacity: 0.8;
+}
+
+.blogs .data h2 {
+    font-size: 35px;
+    color: black;
+    font-family: 'Sen-700', serif;
+}
+
+.blogs .data p {
+    font-size: 18px;
+    font-family: 'Sen-400', serif;
+    color: #595959;
+    margin-bottom: 50px;
+}
+
+.blogs .blog {
+    padding: 0 16px;
+}
+
+.blogs .blog img {
+    height: 260px;
+}

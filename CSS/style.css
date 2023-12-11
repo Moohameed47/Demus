@@ -7,12 +7,16 @@
 @import url(base/base.css);
 
 /* Component Files */
+@import url(component/Underline.css);
+@import url(component/card.css);
+@import url(component/header.css);
 
 /* Layout Files */
 @import url(layout/navbar.css);
 
 /* Page Files */
 @import url(pages/home.css);
+@import url(pages/login.css);
 
 /* Responsive Files */
 @import url(responsive/home.css);
