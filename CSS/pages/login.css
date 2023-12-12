@@ -19,12 +19,12 @@
     border-color: #262626;
 }
 
-.form form input::placeholder {
+.form input::placeholder {
     font-family: Sen-400, serif;
     opacity: 0.8;
 }
 
-.form form button {
+.form button {
     background: #000;
     border: none;
     border-radius: 0;
@@ -32,16 +32,16 @@
     padding: 10px 30px;
 }
 
-.form form button::after {
+.form button::after {
     width: 0;
     background: #e3b17f;;
 }
 
-.form form button:hover::after {
+.form button:hover::after {
     width: 100%;
 }
 
-.form form button:hover {
+.form button:hover {
     border: none;
     background: transparent;
 }
