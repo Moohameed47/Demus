@@ -1,0 +1,49 @@
+.footer h3 {
+    font-size: 20px;
+    font-family: 'Sen-600', serif;
+}
+
+.footer .logo {
+    font-size: 30px;
+    font-family: 'Sen-800', serif;
+    color: black;
+    letter-spacing: 2px;
+}
+
+.footer a {
+    color: black;
+    opacity: 0.8;
+    font-family: 'Sen-400', serif;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 12px;
+    position: relative;
+}
+
+.footer a:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background: #000;
+    transition: all 0.4s;
+}
+
+.footer a:hover:before {
+    width: 100%;
+
+}
+
+.footer p {
+    font-size: 14px;
+    color: black;
+    opacity: 0.8;
+    font-family: 'Sen-400', serif;
+
+}
+
+.footer i {
+    color: black;
+}

@@ -10,102 +10,162 @@
 </head>
 
 <body>
-<section class="navbar py-3 sticky-top">
-    <div class="container">
-        <div class="w-100" style="margin: 0 -20px;">
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="index.html">
-                        <img src="Images/logo.svg" alt="logo"></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+    <section class="navbar py-3 sticky-top">
+        <div class="container">
+            <div class="w-100" style="margin: 0 -20px;">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="Images/logo.svg" alt="logo"></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                             aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mx-auto mb-2 mt-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="#">Shops</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                   data-bs-toggle="dropdown" aria-expanded="false">
-                                    Collection
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="#">Blogs</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="#">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="#">Contact</a>
-                            </li>
-                        </ul>
-                        <div class="d-flex mt-2">
-                            <a href="#" class="nav-icon fs-5 fw-light fa-regular fa-magnifying-glass"></a>
-                            <a href="login.html" class="nav-icon fs-5 fw-light fa-light fa-user"></a>
-                            <a href="#" class="nav-icon fs-5 fw-light pe-0 fa-regular fa-cart-shopping"></a>
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mx-auto mb-2 mt-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="#">Shops</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Collection
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="#">Blogs</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="#">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="#">Contact</a>
+                                </li>
+                            </ul>
+                            <div class="d-flex mt-2">
+                                <a href="#" class="nav-icon fs-5 fw-light fa-regular fa-magnifying-glass"></a>
+                                <a href="login.html" class="nav-icon fs-5 fw-light fa-light fa-user"></a>
+                                <a href="cart.html" class="nav-icon fs-5 fw-light pe-0 fa-regular fa-cart-shopping"></a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <section class="form py-80">
+        <div class="container">
+            <div class="text-center">
+                <h3>CREATE ACCOUNT</h3>
+            </div>
+            <div class="row justify-content-center mt-5 space">
+                <form class="col-lg-4">
+                    <div class="mb-3">
+                        <label for="InputFName1" class="form-label">First Name</label>
+                        <input type="email" class="form-control" id="InputFName1" aria-describedby="nameHelp"
+                            placeholder="First Name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="InputLName1" class="form-label">Last Name</label>
+                        <input type="email" class="form-control" id="InputLName1" aria-describedby="nameHelp"
+                            placeholder="Last Name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="InputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp"
+                            placeholder="Email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="InputPassword1" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="InputPassword1" placeholder="Password" </div>
+                        <a href="login.html" class="d-block text-end text-decoration-underline
+                     text-black">Login</a>
+                        <button type="submit" class="btn btn-half" onclick="Register()">Create</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <hr>
+        <div class="py-80 container">
+            <div class="row space">
+                <div class="col-xl-5">
+                    <h3 class="mb-4 logo">DEMUS</h3>
+                    <p>Call us: 888.312.2456 - 666.010.1238</p>
+                    <p> Text: 200.490.1520 - 666.010.1238</p>
+                    <p> Email: demus@domain.vn</p>
+                    <p>
+                        <i class="fa-brands fa-twitter mt-2 fs-5"></i>
+                        <i class="fa-brands fa-facebook-f mx-3 fs-5"></i>
+                        <i class="fa-brands fa-instagram fs-5"></i>
+                    </p>
+                </div>
+                <div class="col-xl-7 row">
+                    <div class="col-xl-4">
+                        <h3 class="mb-4">Menu</h3>
+                        <div class="">
+                            <a href="index.html">Home</a>
+                        </div>
+                        <div class="">
+                            <a href="shop.html">Shop</a>
+                        </div>
+                        <div class="">
+                            <a href="collection.html">Collection</a>
+                        </div>
+                        <div class="">
+                            <a href="cart.html">cart</a>
+                        </div>
+                    </div>
+                    <div class="col-xl-4">
+                        <h3 class="mb-4">Services</h3>
+                        <div class="">
+                            <a href="#">Privacy Policy</a>
+                        </div>
+                        <div class="">
+                            <a href="#">Refund Policy</a>
+                        </div>
+                        <div class="">
+                            <a href="#">Shipping Policy</a>
+                        </div>
+                        <div class="">
+                            <a href="#">Terms of Sevrice</a>
+                        </div>
+                    </div>
+                    <div class="col-xl-4">
+                        <h3 class="mb-4">About</h3>
+                        <div class="">
+                            <a href="#">Our Story</a>
+                        </div>
+                        <div class="">
+                            <a href="#">Our Mission</a>
+                        </div>
+                        <div class="">
+                            <a href="#">FAQs</a>
+                        </div>
+                        <div class="">
+                            <a href="#">Contact Us</a>
                         </div>
                     </div>
                 </div>
-            </nav>
+            </div>
         </div>
-    </div>
-</section>
-
-<section class="form py-80">
-    <div class="container">
-        <div class="text-center">
-            <h3>CREATE ACCOUNT</h3>
-        </div>
-        <div class="row justify-content-center mt-5 space">
-            <form class="col-lg-4">
-                <div class="mb-3">
-                    <label for="InputFName1" class="form-label">First Name</label>
-                    <input type="email" class="form-control" id="InputFName1"
-                           aria-describedby="nameHelp"
-                           placeholder="First Name">
-                </div>
-                <div class="mb-3">
-                    <label for="InputLName1" class="form-label">Last Name</label>
-                    <input type="email" class="form-control" id="InputLName1"
-                           aria-describedby="nameHelp"
-                           placeholder="Last Name">
-                </div>
-                <div class="mb-3">
-                    <label for="InputEmail1" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="InputEmail1"
-                           aria-describedby="emailHelp"
-                           placeholder="Email">
-                </div>
-                <div class="mb-3">
-                    <label for="InputPassword1" class="form-label">Password</label>
-                    <input type="password" class="form-control" id="InputPassword1"
-                           placeholder="Password"
-                </div>
-                <a href="login.html" class="d-block text-end text-decoration-underline
-                     text-black">Login</a>
-                <button type="submit" class="btn btn-half" onclick="Register()">Create</button>
-            </form>
-        </div>
-    </div>
-</section>
-
-
-<script src="JS/jquery.min.js"></script>
-<script src="JS/bootstrap.bundle.min.js"></script>
-<script src="JS/wow.min.js"></script>
-<script src="JS/main.js"></script>
-<script src="JS/register.js"></script>
+    </footer>
+    <script src="JS/jquery.min.js"></script>
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/wow.min.js"></script>
+    <script src="JS/main.js"></script>
+    <script src="JS/register.js"></script>
 </body>
 
 </html>

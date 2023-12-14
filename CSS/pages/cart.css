@@ -1,0 +1,20 @@
+.table button {
+    background: #fff;
+    position: relative;
+}
+
+.table button::after {
+    content: "";
+    color: black;
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: #e3b17f;
+    transition: all 0.3s;
+}
+
+.table button:hover::after {
+    width: 100%;
+}

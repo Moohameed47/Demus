@@ -1,45 +1,296 @@
-{
-  "products": [
-    {
-      "id": 0,
-      "prodId": 0,
-      "name": "Wicked lounge rattan",
-      "price": 282,
-      "vendor": "Ashley",
-      "categories": "Chairs",
-      "sku": "SKU113",
-      "availability": true,
-      "mainImg": "../Images/Product-IMG-27_41b2abea-e798-4228-9f8a-750f01ed095d.jpg",
-      "images": [],
-      "Color": [
-        "BurlyWood"
-      ],
-      "tags": [
-        "Ceramic",
-        "Fabric",
-        "Metal",
-        "Wood"
-      ]
-    },
-    {
-      "id": 1,
-      "prodId": 1,
-      "name": "Yann oak base",
-      "price": 182,
-      "vendor": "Ashley",
-      "categories": "Chairs",
-      "sku": "SKU091",
-      "availability": true,
-      "mainImg": "../Images/Product-IMG-23_14e6b0e1-dc96-414a-ad38-00d3f0060f67.jpg",
-      "images": [],
-      "Color": [
-        "Wheat"
-      ],
-      "tags": [
-        "Ceramic",
-        "Metal",
-        "Wood"
-      ]
-    }
-  ]
-}
+[
+  {
+    "id": 0,
+    "prodId": 0,
+    "name": "Wicked lounge rattan",
+    "price": 282,
+    "oldPrice": 320,
+    "vendor": "Ashley",
+    "categories": "Chairs",
+    "sku": "SKU113",
+    "sale": true,
+    "availability": true,
+    "mainImg": "../Images/Prod1.jpg",
+    "images": [],
+    "Color": [
+      "BurlyWood"
+    ],
+    "tags": [
+      "Any",
+      "Ceramic",
+      "Fabric",
+      "Metal",
+      "Wood"
+    ]
+  },
+  {
+    "id": 1,
+    "prodId": 1,
+    "name": "Alex lounge chair",
+    "price": 90,
+    "oldPrice": 0,
+    "vendor": "Ashley",
+    "categories": "Chairs",
+    "sku": "SKU051",
+    "sale": false,
+    "availability": true,
+    "mainImg": "../Images/Prod2.jpg",
+    "images": [],
+    "Color": [
+      "BurlyWood"
+    ],
+    "tags": [
+      "Any",
+      "Ceramic",
+      "Fabric"
+    ]
+  },
+  {
+    "id": 2,
+    "prodId": 2,
+    "name": "Alex lounge chair",
+    "price": 140,
+    "oldPrice": 0,
+    "vendor": "Ashley",
+    "categories": "Chairs",
+    "sku": "SKU082",
+    "sale": false,
+    "availability": false,
+    "mainImg": "../Images/Prod3.jpg",
+    "images": [],
+    "Color": [
+      "SlateGray"
+    ],
+    "tags": [
+      "Any",
+      "Ceramic",
+      "Metal",
+      "Wood"
+    ]
+  },
+  {
+    "id": 3,
+    "prodId": 3,
+    "name": "Alex lounge chair",
+    "price": 182,
+    "oldPrice": 0,
+    "vendor": "Ashley",
+    "categories": "Chairs",
+    "sku": "SKU103",
+    "sale": false,
+    "availability": false,
+    "mainImg": "../Images/Prod4.jpg",
+    "images": [],
+    "Color": [
+      "BurlyWood"
+    ],
+    "tags": [
+      "Any",
+      "Fabric",
+      "Wood"
+    ]
+  },
+  {
+    "id": 4,
+    "prodId": 4,
+    "name": "Alex lounge chair",
+    "price": 180,
+    "oldPrice": 0,
+    "vendor": "Ashley",
+    "categories": "Chairs",
+    "sku": "SKU103",
+    "sale": false,
+    "availability": true,
+    "mainImg": "../Images/Prod5.jpg",
+    "images": [],
+    "Color": [
+      "BurlyWood",
+      "DarkSeaGreen",
+      "LightBlue",
+      "Wheat"
+    ],
+    "tags": [
+      "Any",
+      "Fabric",
+      "Wood"
+    ]
+  },
+  {
+    "id": 5,
+    "prodId": 5,
+    "name": "Wicked lounge rattan",
+    "price": 90,
+    "oldPrice": 0,
+    "vendor": "Ashley",
+    "categories": "Chairs",
+    "sku": "SKU041",
+    "sale": false,
+    "availability": true,
+    "mainImg": "../Images/Prod6.jpg",
+    "images": [],
+    "Color": [
+      "Tan",
+      "BurlyWood",
+      "LightSalmon",
+      "NavajoWhite",
+      "Black"
+    ],
+    "tags": [
+      "Any"
+    ]
+  },
+  {
+    "id": 6,
+    "prodId": 6,
+    "name": "Wicked lounge rattan",
+    "price": 42,
+    "oldPrice": 0,
+    "vendor": "Ashley",
+    "categories": "Chairs",
+    "sku": "SKU041",
+    "sale": false,
+    "availability": true,
+    "mainImg": "../Images/Prod7.jpg",
+    "images": [],
+    "Color": [
+      "Tan",
+      "LightSalmon",
+      "Bisue",
+      "BurlyWood",
+      "Black"
+    ],
+    "tags": [
+      "Any"
+    ]
+  },
+  {
+    "id": 7,
+    "prodId": 7,
+    "name": "Wicked lounge rattan",
+    "price": 180,
+    "oldPrice": 0,
+    "vendor": "Ashley",
+    "categories": "Chairs",
+    "sku": "SKU101",
+    "sale": false,
+    "availability": false,
+    "mainImg": "../Images/Prod8.jpg",
+    "images": [],
+    "Color": [],
+    "tags": [
+      "Any"
+    ]
+  },
+  {
+    "id": 8,
+    "prodId": 8,
+    "name": "Wicked lounge rattan",
+    "price": 228,
+    "oldPrice": 0,
+    "vendor": "Ashley",
+    "categories": "Chairs",
+    "sku": "SKU113",
+    "sale": false,
+    "availability": true,
+    "mainImg": "../Images/Prod9.jpg",
+    "images": [],
+    "Color": [
+      "BurlyWood"
+    ],
+    "tags": [
+      "Any",
+      "Ceramic",
+      "Fabric",
+      "Wood"
+    ]
+  },
+  {
+    "id": 9,
+    "prodId": 9,
+    "name": "Wicked lounge rattan",
+    "price": 228,
+    "oldPrice": 130,
+    "vendor": "Ashley",
+    "categories": "Chairs",
+    "sku": "SKU009",
+    "sale": true,
+    "availability": true,
+    "mainImg": "../Images/Prod10.jpg",
+    "images": [],
+    "Color": [],
+    "tags": [
+      "Any"
+    ]
+  },
+  {
+    "id": 10,
+    "prodId": 10,
+    "name": "Yann oak base",
+    "price": 160,
+    "oldPrice": 130,
+    "vendor": "Ashley",
+    "categories": "Chairs",
+    "sku": "N/A",
+    "sale": false,
+    "availability": true,
+    "mainImg": "../Images/Prod11.jpg",
+    "images": [],
+    "Color": [
+      "SlateGray",
+      "BurlyWood",
+      "LightSalmon"
+    ],
+    "tags": [
+      "Any",
+      "Ceramic",
+      "Fabric"
+    ]
+  },
+  {
+    "id": 11,
+    "prodId": 11,
+    "name": "Yann oak base",
+    "price": 42,
+    "oldPrice": 130,
+    "vendor": "Ashley",
+    "categories": "Chairs",
+    "sku": "SKU061",
+    "sale": false,
+    "availability": true,
+    "mainImg": "../Images/Prod12.jpg",
+    "images": [],
+    "Color": [
+      "Tan"
+    ],
+    "tags": [
+      "Any",
+      "Ceramic",
+      "Fabric",
+      "Metal",
+      "Wood"
+    ]
+  },
+  {
+    "id": 12,
+    "prodId": 12,
+    "name": "Yann oak base",
+    "price": 182,
+    "oldPrice": 130,
+    "vendor": "Ashley",
+    "categories": "Chairs",
+    "sku": "SKU091",
+    "sale": false,
+    "availability": true,
+    "mainImg": "../Images/Prod13.jpg",
+    "images": [],
+    "Color": [
+      "Wheat"
+    ],
+    "tags": [
+      "Any",
+      "Ceramic",
+      "Metal",
+      "Wood"
+    ]
+  }
+]

@@ -25,16 +25,16 @@
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav mx-auto mb-2 mt-2 mb-lg-0">
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                                    <a class="nav-link " aria-current="page" href="index.html">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" aria-current="page" href="#">Shops</a>
+                                    <a class="nav-link" aria-current="page" href="shop.html">Shops</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" aria-current="page" href="collection.html">Collection</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" aria-current="page" href="#">Blogs</a>
+                                    <a class="nav-link" aria-current="page" href="blog.html">Blogs</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" aria-current="page" href="#">About</a>
@@ -55,27 +55,54 @@
         </div>
     </section>
 
-    <section class="form py-80">
+    <section class="header py-5">
+        <div class="data text-center" id="ProductHeader">
+        </div>
+    </section>
+
+    <section class="Cart py-80">
         <div class="container">
-            <div class="text-center">
-                <h3>Login</h3>
-            </div>
-            <div class="row justify-content-center mt-5 space">
-                <form class="form col-lg-4">
-                    <div class="mb-3">
-                        <label for="InputEmail1" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp"
-                            placeholder="Email">
-                    </div>
-                    <div class="mb-3">
-                        <label for="InputPassword1" class="form-label">Password</label>
-                        <input type="password" class="form-control" id="InputPassword1" placeholder="Password">
-                    </div>
-                    <a href="register.html" class="d-block text-end text-decoration-underline
-                     text-black">Create
-                        account</a>
-                    <button type="button" class="btn btn-half" onclick="Login()">Sign in</button>
-                </form>
+            <div class="space">
+                <div class="table">
+                    <main id="cart">
+                        <h1 class="text-uppercase">Your Cart</h1>
+                        <div class="container-fluid">
+                            <div class="row align-items-start">
+                                <div class="col-12 col-sm-8 items" id="items"></div>
+                                <div class="col-12 col-sm-4 p-3 proceed form">
+                                    <div class="row m-0">
+                                        <div class="col-sm-8 p-0">
+                                            <h6>Subtotal</h6>
+                                        </div>
+                                        <div class="col-sm-4 p-0">
+                                            <p id="subtotal">$132.00</p>
+                                        </div>
+                                    </div>
+                                    <div class="row m-0">
+                                        <div class="col-sm-8 p-0 ">
+                                            <h6>Tax</h6>
+                                        </div>
+                                        <div class="col-sm-4 p-0">
+                                            <p id="tax">$47.00</p>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="row mx-0 mb-2">
+                                        <div class="col-sm-8 p-0 d-inline">
+                                            <h5>Total</h5>
+                                        </div>
+                                        <div class="col-sm-4 p-0">
+                                            <p id="total">$138.40</p>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="text-black">
+                                        <button id="btn-checkout" class="btn btn-half">Checkout</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </main>
+                </div>
             </div>
         </div>
     </section>
@@ -149,7 +176,7 @@
     <script src="JS/bootstrap.bundle.min.js"></script>
     <script src="JS/wow.min.js"></script>
     <script src="JS/main.js"></script>
-    <script src="JS/login.js"></script>
+    <script src="JS/cart.js"></script>
 </body>
 
 </html>

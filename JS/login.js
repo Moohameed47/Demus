@@ -10,7 +10,7 @@ function Login() {
         }
         if (exist(obj)) {
             alert('Login Successfully')
-            window.location.replace("http://localhost:63342/Demus/index.html");
+            window.location.replace("http://127.0.0.1:5500/index.html");
         } else
             alert('Invalid Email Or Password')
     } else

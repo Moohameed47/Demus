@@ -73,7 +73,7 @@ img {
 }
 
 .space {
-    margin: 0 -50px
+    margin: 0 -50px;
 }
 
 ul {
@@ -82,4 +82,10 @@ ul {
 
 ul li {
     display: inline-block;
+}
+.show {
+    transition: opacity 400ms;
+}
+.hide {
+    opacity: 0;
 }

@@ -1,0 +1,45 @@
+.item-data i {
+    color: #e3b17f;
+}
+
+.product ul.cat li {
+    position: relative;
+    font-size: 16px;
+    font-family: "Sen-600", serif;
+    padding: 25px 0;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.product ul.cat li:first-child {
+    color: #e3b17f;
+}
+
+.product ul.cat li:first-child::after {
+    width: 100%;
+}
+
+.product ul.cat li:hover {
+    color: #e3b17f;
+}
+
+.product ul.cat li::after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: #e3b17f;
+    transition: all 0.3s;
+}
+
+.product ul.cat li:hover::after {
+    width: 100%;
+}
+
+.product .Static-data p {
+    color: black;
+    font-family: 'Sen-400', serif;
+    opacity: 0.8;
+}

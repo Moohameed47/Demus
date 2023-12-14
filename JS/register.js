@@ -14,9 +14,9 @@ function Register() {
             alert('Already Exist')
         } else {
             alert('Register Successfully')
-            users.push({email, password})
+            users.push({ email, password })
             localStorage.setItem('users', JSON.stringify(users));
-            window.location.replace("http://localhost:63342/Demus/index.html");
+            window.location.replace("http://127.0.0.1:5500/index.html");
         }
     } else {
         alert("Please Enter The Data")
